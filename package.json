@@ -1,0 +1,42 @@
+{
+  "scripts": {
+    "start": "node server/index.js",
+    "start-dev": "webpack -w & nodemon server/index.js"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel": "^6.23.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "victory": "^35.4.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-env": "^7.13.5",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0"
+  },
+  "name": "project_victory",
+  "description": "My first project using Victory",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stonef13/myVictoryProject.git"
+  },
+  "author": "Stone Fuglaar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stonef13/myVictoryProject/issues"
+  },
+  "homepage": "https://github.com/stonef13/myVictoryProject#readme"
+}
