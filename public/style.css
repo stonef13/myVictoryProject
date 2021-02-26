@@ -1,3 +1,29 @@
 body {
   background-color: blanchedalmond;
+  /* background-color: #fbeec1; */
+  text-align: center;
+}
+
+.project-title {
+  text-align: start;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 60%;
+  margin-left: 20%;
+}
+
+.red {
+  color: red;
+  background-color: black;
+  width: 10%;
+}
+
+.yellow {
+  color: yellow;
+  background-color: black;
+  width: 10%;
 }
